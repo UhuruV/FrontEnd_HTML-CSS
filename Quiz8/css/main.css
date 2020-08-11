@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    background-color: brown;
+    min-width: 400px;
+}
+.one{
+    min-width: 200px;
+}
+
+
+
+@media screen and(max-width:600px){
+
+}
