@@ -1,10 +1,12 @@
-  a{
-    text-decoration: none;
-    float: right;
-    clear: none;
-    color:white;
+header{
+    margin-top: 50px;
+    float: center;
+}
+a{
     padding: 20px;
-    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 h2{
     padding-top: 100px;
@@ -12,21 +14,24 @@ h2{
     font-size: 30px;
     font-weight: bold;
 }
-header{
-    background-color: black;
-}
+
 body{
-    background-image: url("https://assets.epicurious.com/photos/54aaeace6529d92b2c02f4ee/16:9/w_1280,c_limit/kale-super-greens_9x4.jpg");
+    background-image: url("../darkbackground.jpg");
     background-size: cover;
     background-position: fixed;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .landing{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: bolder;
     margin: 250px auto;
     color: white;
 }
+@media screen and (max-width: 800px) {
+    .landing, .right {
+      width: 100%; 
+    }
+  }
 
 
