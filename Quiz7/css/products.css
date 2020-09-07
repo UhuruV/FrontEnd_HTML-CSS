@@ -40,3 +40,8 @@ a{
     box-sizing: border-box;
     padding-top: 40px;
   }
+  @media screen and (max-width: 800px) {
+    .container, .parent,.child,.parent-wrapper{
+      width: 100%; 
+    }
+  }

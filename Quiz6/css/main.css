@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D1D1D1;
+}
+.intro{
+    background-color: #2F4351;
+    height: 250px;
+    text-transform: uppercase;
+}
+h3{
+    text-align:center;
+    background-color:#242e3b ;
+    color: white;
+    padding: 20px;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    color: #fff;;
+    padding: 20px;
+    margin-top:0px;
+}
+.p1{
+    text-align: center;
+    color: #f7ca18;
+    letter-spacing: .4rem;
+    margin-top:0;
+}
+.p1{
+    margin-top:0px;
+}
+.about{
+    background-color: #f7ca18;
+}
+.image{
+    float:left;
+    padding: 20px;
+    height: 300px;
+    padding-top: 5px;
+}
+.myself{
+    color: grey;
+    letter-spacing: .1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.main{
+    width: 60%;
+    margin: 25px auto;
+    height: 557px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.cont-hobby-goals{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.hobby{
+    background-color:white;
+    width:49%;
+    height: 400px;
+    float: left;
+    
+}
+li{
+    color:grey;
+    padding-left: 40px;
+}
+.goals{
+    background-color: white;
+    width: 48%;
+    height: 400px;
+    float: left;
+    margin-left: 25px;
+}
+
+.about{
+    margin-top:0px;
+}
+.thead{
+    background-color: #f7ca18;
+}
+.table-head{
+    width:60%;
+    margin:0 auto;
+    
+}
+
+
+table {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    padding-top: 30px; 
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom:1px solid whitesmoke;
+}
+
+table th td{
+    border-bottom:1px solid gray;
+    border: 1px solid #d1d1d1;
+}
+
+th, td {
+    padding: 25px;
+    text-align:center ;
+  }
+
+footer{
+    background-color:#304863;
+    height: 200px;
+    margin-top: 25px;;
+}
+
+ footer p{
+    text-align: initial;
+    margin-left: 100px;
+    color: #fff;
+}
+ 
+#foot{
+    color: #f7ca18;
+}
+
+@media screen and (max-width:600px) {
+    .holder,.main,.cont-hobby-goals,.table-head {
+      width:60%; /* The width is 100%, when the viewport is 600px or smaller */
+    }
+    .intro{
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width:800px) {
+    .holder,.main,.cont-hobby-goals,.table-head {
+      width:60%; /* The width is 60%, when the viewport is 800px or smaller */
+    }
+    .intro{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .holder,.main,.cont-hobby-goals,.table-head {
+      width:60%; /* The width is 100%, when the viewport is 1000px or smaller */
+    }
+    .intro{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .holder,.main,.cont-hobby-goals,.table-head {
+      width:60%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .intro{
+        width: 100%;
+    }
+  }
+
